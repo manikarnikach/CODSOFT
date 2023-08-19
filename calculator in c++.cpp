@@ -1,8 +1,11 @@
-#include<iostream.h>  
+#include<iostream>  
 #include<stdio.h>  
 #include<conio.h>  
 #include<math.h>  
 #include<stdlib.h>  
+
+using namespace std;
+
 void add();  
 void sub();  
 void multi();  
@@ -10,9 +13,9 @@ void division();
 void sqr();  
 void srt();  
 void exit();  
-void main()  
+int main()  
 {  
-clrscr();  
+ 
 int opr;  
 // display different operation of the calculator  
 do  
@@ -127,4 +130,3 @@ cin >> num1;
 q = sqrt(num1);  
 cout <<" \n Square Root of " << num1<< " is : "<< q;  
 }  
-
